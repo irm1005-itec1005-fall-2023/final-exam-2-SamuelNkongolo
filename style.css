@@ -59,7 +59,7 @@ header {
 
 .subtitle {
   font-size: 0.8rem; 
-  color: #666; 
+  color: white; 
   padding-bottom: 100px;
   position: relative;
   z-index: 1;
@@ -311,7 +311,14 @@ footer {
   color: darkblue;
 }
 
+#shuffle-button{
+  background-color: #0d063a;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 20px;
+  cursor: pointer;
 
+}
 
 
 
