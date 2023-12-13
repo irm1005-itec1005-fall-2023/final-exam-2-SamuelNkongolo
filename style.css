@@ -1,0 +1,69 @@
+/*
+ * CSS File for the solution
+ * Final Exam
+ * You got this!
+ */
+
+/*
+ * COLOUR PALETTE
+ *
+ * YOU DO NOT NEED TO USE THESE COLOURS, BUT YOU CAN IF YOU WANT TO
+ *
+ * #cdb4db - Lavender Purple
+ * #ffc8dd - Pink
+ * #ffafcc - Light Pink
+ * #bde0fe - Light Blue
+ * #a2d2ff - Light Blue
+ * #0c0a3e - Dark Purple
+ * #797979 - Grey
+ *
+ * https://coolors.co/palette/cdb4db-ffc8dd-ffafcc-bde0fe-a2d2ff
+ */
+
+/*
+ * FOR YOUR DESKTOP VIEWPORT I WOULD RECOMMEND THE FOLLOWING MEDIA QUERY
+ *
+ * @media screen and (min-width: 800px) {
+ *    ... your styles here ...
+ * }
+ */
+
+ html {
+  font-size: 1.0rem;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+
+  background-color: #f7ead7;
+}
+
+/*
+ * SR-ONLY
+ */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+ }
+
+
+/*
+ * SHARED STYLES
+ */
+
+.page-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 1.0rem;
+}
+
+/*
+ * ADD YOUR STYLES HERE
+ */
